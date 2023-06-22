@@ -1,4 +1,4 @@
 #featureSec {
     height: 200px;
-    background-color: red;
+    background-color: var(--colordark1);
 }
