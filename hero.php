@@ -4,6 +4,7 @@
             <span class="herobook">Book Car Now</span>
             <span class="herophone">+62813 9891 2341</span>
             <span class="heroweb">www.comfyride.id</span>
+            <div id="herocar"></div>
         </div>
     </div>
 </section>
