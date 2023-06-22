@@ -9,6 +9,7 @@
     <title>Halaman Depan Versi Inggris</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="features.css">
 </head>
 
 <body>
