@@ -1,3 +1,5 @@
-<section id="">
-    <div class="container">keanu ganteng banget pangetuuu</div>
+<section id="featureSec" class="feature">
+    <div id="featureCtn" class="container">
+        
+    </div>
 </section>
