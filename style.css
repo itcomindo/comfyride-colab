@@ -10,9 +10,11 @@
   --colordark3: #000;
   --color1: #8cc63f;
   --color2: #f7931e;
+  --color3: #ffffff;
   --fontsize1: clamp(1.625rem, 1.0943rem + 1.4151vw, 2rem);
   --fontsize2: clamp(1.4375rem, 0.9953rem + 1.1792vw, 1.75rem);
   --fontsize3: clamp(1.25rem, 0.8078rem + 1.1792vw, 1.5625rem);
+  --fontsize4: clamp(1.125rem, 0.7981rem + 0.9685vw, 1.625rem);
 }
 * {
   padding: 0;

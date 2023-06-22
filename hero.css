@@ -1,3 +1,37 @@
-.sectionheading {
-  font-size: var(--fontsize1);
+#heropr {
+  height: calc(100vh - 80px);
+  margin-top: -80px;
+  position: relative;
+  background-image: url(/images/herobg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+#heropr:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#heropr:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* background-image: url(/images/sq.webp); */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/images/sq.webp);
+  top: 0;
+  left: 0;
+}
+#herowr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
