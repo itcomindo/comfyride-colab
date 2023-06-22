@@ -21,6 +21,7 @@
     <?php include 'hero.php'; ?>
     <?php include 'about.php'; ?>
     <?php include "features.php"; ?>
+    <?php include "testimoni.php"; ?>
 
 
 
