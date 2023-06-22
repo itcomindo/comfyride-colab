@@ -1,0 +1,73 @@
+/*
+* Name: Root
+* @todo root 
+*/
+:root {
+  --font-primary: "Mulish", sans-serif;
+  --bg-primary: aliceblue;
+  --color1: #8cc63f;
+  --color2: #f7931e;
+  --fontsize1: clamp(1.625rem, 1.0943rem + 1.4151vw, 2rem);
+  --fontsize2: clamp(1.4375rem, 0.9953rem + 1.1792vw, 1.75rem);
+  --fontsize3: clamp(1.25rem, 0.8078rem + 1.1792vw, 1.5625rem);
+}
+body {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: var(--bg-primary);
+}
+a {
+  text-decoration: none;
+}
+section,
+.section {
+  padding: 0 1rem;
+  box-sizing: border-box;
+  position: relative;
+}
+div {
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.container {
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.h100 {
+  height: 100%;
+}
+.w100 {
+  width: 100%;
+}
+.hw100 {
+  height: 100%;
+  width: 100%;
+}
+/*=========================Create Sequental font-size for h1 to h6=========================*/
+h1 {
+  font-size: clamp(2rem, calc(2rem + 2vw), 3rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, calc(1.5rem + 1vw), 2rem);
+}
+
+h3 {
+  font-size: clamp(1.25rem, calc(1.25rem + 0.5vw), 1.5rem);
+}
+
+h4 {
+  font-size: clamp(1rem, calc(1rem + 0.25vw), 1.25rem);
+}
+
+h5 {
+  font-size: clamp(0.875rem, calc(0.875rem + 0.125vw), 1rem);
+}
+
+h6 {
+  font-size: clamp(0.75rem, calc(0.75rem + 0.0625vw), 0.875rem);
+}
