@@ -1,0 +1,109 @@
+section#aboutpr {
+  background-color: var(--color2);
+  overflow: visible;
+  position: relative;
+}
+
+div#aboutwr {
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  align-items: center;
+}
+div#aboutright {
+  z-index: 2;
+  position: relative;
+}
+div#aboutformbox {
+  width: 100%;
+  position: relative;
+}
+div#aboutform {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  background-color: var(--colordark1);
+  padding: 1.5rem 0.5rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: var(--color3);
+  position: relative;
+}
+div#aboutform:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background: linear-gradient(to bottom, var(--colordark1), var(--colordark2));
+  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+div.aboutformitem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  position: relative;
+}
+div.aboutformitem input,
+div.aboutformitem textarea {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--color1);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  z-index: 2;
+  color: black;
+  position: relative;
+}
+div#aboutbtn {
+  background-color: var(--colordark2);
+  width: max-content;
+  padding: 4px 2rem;
+  color: white;
+  position: relative;
+  z-index: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 50px 0 rgba(255, 255, 255, 0.2);
+}
+
+div#aboutbtn:before {
+  content: "";
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(to bottom, var(--colordark1), var(--colordark3));
+  z-index: -1;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
