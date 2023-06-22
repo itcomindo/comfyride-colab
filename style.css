@@ -15,6 +15,7 @@
   --fontsize2: clamp(1.4375rem, 0.9953rem + 1.1792vw, 1.75rem);
   --fontsize3: clamp(1.25rem, 0.8078rem + 1.1792vw, 1.5625rem);
   --fontsize4: clamp(1.125rem, 0.7981rem + 0.9685vw, 1.625rem);
+  --fontsizebig1: clamp(1.5rem, 0.5194rem + 2.9056vw, 3rem);
 }
 * {
   padding: 0;
@@ -80,3 +81,10 @@ h5 {
 h6 {
   font-size: clamp(0.75rem, calc(0.75rem + 0.0625vw), 0.875rem);
 }
+
+/**
+=========================
+*NAME: Global Class
+*@todo Global Class
+*=========================
+*/

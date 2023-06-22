@@ -4,8 +4,8 @@
             <!-- header left -->
             <div id="headerleft" class="headercol hw100">
                 <a href="/">
-                    <h2>Comfyride</h2>
-                    <span>Best Ride For Special One</span>
+                    <h2><span class="comfy">Comfy</span>ride</h2>
+                    <span class="logotagline">Best Ride For Special One</span>
                 </a>
             </div>
             <!-- header right -->
