@@ -5,6 +5,9 @@
 :root {
   --font-primary: "Mulish", sans-serif;
   --bg-primary: aliceblue;
+  --colordark1: #333;
+  --colordark2: #111;
+  --colordark3: #000;
   --color1: #8cc63f;
   --color2: #f7931e;
   --fontsize1: clamp(1.625rem, 1.0943rem + 1.4151vw, 2rem);
