@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="hero.css">
     <link rel="stylesheet" href="features.css">
+    <link rel="stylesheet" href="testimoni.css">
 </head>
 
 <body>
