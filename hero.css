@@ -7,6 +7,7 @@
   background-repeat: no-repeat;
   z-index: 0;
   background-position: 0rem -17rem;
+  margin-bottom: 5rem;
 }
 #heropr:before {
   content: "";
@@ -53,4 +54,13 @@ span.herophone {
   font-size: var(--fontsizebig1);
   font-weight: 900;
   letter-spacing: 1px;
+}
+#herocar {
+  background-image: url(/images/mus2.webp);
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -5rem;
 }

@@ -17,6 +17,7 @@
 <body>
     <?php include 'header.php'; ?>
     <?php include 'hero.php'; ?>
+    <?php include 'about.php'; ?>
     <?php include "features.php"; ?>
 
 
