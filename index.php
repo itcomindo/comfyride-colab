@@ -11,13 +11,18 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="features.css">
+    <link rel="stylesheet" href="testimoni.css">
 </head>
 
 <body>
     <?php include 'header.php'; ?>
     <?php include 'hero.php'; ?>
+    <?php include 'about.php'; ?>
     <?php include "features.php"; ?>
+    <?php // include "testimoni.php"; 
+    ?>
 
 
 
