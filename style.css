@@ -11,6 +11,10 @@
   --fontsize2: clamp(1.4375rem, 0.9953rem + 1.1792vw, 1.75rem);
   --fontsize3: clamp(1.25rem, 0.8078rem + 1.1792vw, 1.5625rem);
 }
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   font-family: var(--font-primary);
   font-size: 16px;
