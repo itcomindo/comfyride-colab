@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="features.css">
     <link rel="stylesheet" href="testimoni.css">
+    <link rel="stylesheet" href="footer.css">
+
 </head>
 
 <body>
@@ -21,8 +23,10 @@
     <?php include 'hero.php'; ?>
     <?php include 'about.php'; ?>
     <?php include "features.php"; ?>
-    <?php // include "testimoni.php"; 
+    <?php include "testimoni.php"; 
     ?>
+
+    
 
 
 

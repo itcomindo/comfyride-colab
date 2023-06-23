@@ -4,7 +4,7 @@ section#featureSec {
     background-position: center;
     position: relative;
     z-index: 1;
-    padding: 4em;
+    padding: 5rem 16px;
 }
 
 section#featureSec::before {
