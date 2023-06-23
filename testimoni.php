@@ -1,8 +1,8 @@
 <section id="testimoniSection" class="section">
     <div id="testimoniCtn" class="container">
         <div class="titleTestimoni">
-            <h3>HAPPY CLIENT'S</h3>
-            <h2>TESTIMONIALS</h2>
+            <h2 class="sectionhead color2 uppercase">Happy Client's</h2>
+            <p class="w80">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus ex eum, ab iusto iure aliquam quis vitae deleniti impedit veniam vero totam exercitationem dolore reprehenderit beatae voluptas amet accusantium! Deserunt.</p>
         </div>
         <div class="testimoniBoxWr">
             <div class="testimoniBoxChild">
@@ -14,8 +14,8 @@
                         <img src="images/testimoniUser.webp" alt="Real testimonial">
                     </div>
                     <div class="nameUser">
-                        <h4>KEANU</h4>
-                        <h5>BUSINESS MAN</h5>
+                        <h3 class="cardhead color2">KEANU</h3>
+                        <small>BUSINESS MAN</small>
                     </div>
                 </div>
             </div>
@@ -28,8 +28,8 @@
                         <img src="images/testimoniUser.webp" alt="Real testimonial">
                     </div>
                     <div class="nameUser">
-                        <h4>KEANU</h4>
-                        <h5>BUSINESS MAN</h5>
+                        <h3 class="cardhead color2">KEANU</h3>
+                        <small>BUSINESS MAN</small>
                     </div>
                 </div>
             </div>
@@ -42,8 +42,8 @@
                         <img src="images/testimoniUser.webp" alt="Real testimonial">
                     </div>
                     <div class="nameUser">
-                        <h4>KEANU</h4>
-                        <h5>BUSINESS MAN</h5>
+                        <h3 class="cardhead color2">KEANU</h3>
+                        <small>BUSINESS MAN</small>
                     </div>
                 </div>
             </div>
@@ -56,8 +56,8 @@
                         <img src="images/testimoniUser.webp" alt="Real testimonial">
                     </div>
                     <div class="nameUser">
-                        <h4>KEANU</h4>
-                        <h5>BUSINESS MAN</h5>
+                        <h3 class="cardhead color2">KEANU</h3>
+                        <small>BUSINESS MAN</small>
                     </div>
                 </div>
             </div>
@@ -70,8 +70,8 @@
                         <img src="images/testimoniUser.webp" alt="Real testimonial">
                     </div>
                     <div class="nameUser">
-                        <h4>KEANU</h4>
-                        <h5>BUSINESS MAN</h5>
+                        <h3 class="cardhead color2">KEANU</h3>
+                        <small>BUSINESS MAN</small>
                     </div>
                 </div>
             </div>
@@ -84,8 +84,8 @@
                         <img src="images/testimoniUser.webp" alt="Real testimonial">
                     </div>
                     <div class="nameUser">
-                        <h4>KEANU</h4>
-                        <h5>BUSINESS MAN</h5>
+                        <h3 class="cardhead color2">KEANU</h3>
+                        <small>BUSINESS MAN</small>
                     </div>
                 </div>
             </div>

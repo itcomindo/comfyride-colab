@@ -12,6 +12,11 @@ div#aboutwr {
   gap: 16px;
   align-items: center;
 }
+div#aboutleft {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 div#aboutright {
   z-index: 2;
   position: relative;
@@ -89,6 +94,14 @@ div#aboutbtn {
   -o-border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0px 0px 50px 0 rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+}
+div#aboutbtn i {
+  fill: white;
+  margin-right: 6px;
+  position: relative;
+  top: 2px;
 }
 
 div#aboutbtn:before {

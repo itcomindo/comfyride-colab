@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="features.css">
     <link rel="stylesheet" href="testimoni.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css" />
 
 </head>
 
@@ -23,14 +24,5 @@
     <?php include 'hero.php'; ?>
     <?php include 'about.php'; ?>
     <?php include "features.php"; ?>
-    <?php include "testimoni.php"; 
-    ?>
-
-    
-
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="global.js"></script>
+    <?php include "testimoni.php"; ?>
     <?php include 'footer.php'; ?>

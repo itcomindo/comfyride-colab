@@ -64,6 +64,6 @@ div#herocar {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: -5rem;
+  bottom: -8rem;
   z-index: 2;
 }

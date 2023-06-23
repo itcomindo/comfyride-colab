@@ -1,71 +1,111 @@
 /* FOOTER TOP */
 
 section#topFooter {
-    padding: 3rem 16px;
-    background: var(--color2);
-    text-align: center;
+  background: var(--color2);
+  text-align: center;
+  padding-top: var(--paddingtop5);
+  padding-bottom: var(--paddingbottom5);
 }
 
-section#topFooter h3 {
-    color: var(--colordark1);
+section#topFooter .sectionhead {
+  color: var(--colordark1);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: max-content;
+  margin: 0 auto;
+  padding: 6px 16px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+div#topfooterwr {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 /* FOOTER BOTTOM */
 
 section#footerSection {
-    background: var(--colordark3);
-    color: white;
-    padding: 5rem 16px;
+  background: var(--colordark3);
+  color: white;
+  padding-top: var(--paddingtop7);
+  padding-bottom: var(--paddingbottom7);
 }
 
 div#footerCtn {
-    display: flex;
-}
-
-div.aboutFooter a i svg {
-    margin-right: 16px;
-    font-size: 16px;
-    fill: var(--color2);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
 }
 
 div.ftGB {
-    width: calc(100% / 3);
-}
-
-div h5.footerTitle {
-    border-bottom: 4px solid var(--color2);
-    width: 80%;
-    padding-bottom: 16px;
+  padding: 8px;
 }
 
 div.ftGB p {
-    width: 80%;
-    padding: 16px 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#footericonwr {
+  width: calc(30px * 4);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+div.aboutFooter a i {
+  font-size: 16px;
+  fill: white;
+}
+
+h5.footerTitle {
+  border-bottom: 2px solid var(--color2);
+  padding-bottom: 8px;
 }
 
 div.downloadFooter ul li a {
-    margin-right: 16px;
-    color: var(--color2);
+  margin-right: 16px;
+  color: var(--color2);
 }
 
 div.downloadFooter ul li {
-    list-style: none;
-    display: flex;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 div.downloadFooter ul li a img {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+div.ftGB ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
 }
 
 div.contactFooter ul li {
-    list-style: none;
-    display: flex;
-    align-items: center;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+}
+div.contactFooter ul li i {
+  fill: var(--color3);
+  margin-right: 16px;
 }
 
-div.contactFooter ul li i svg {
-    fill: var(--color3);
-    margin-right: 16px;
+#cp {
+  background-color: var(--colordark3);
+  color: var(--color3);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 80%;
 }

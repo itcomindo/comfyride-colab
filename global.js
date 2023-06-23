@@ -31,6 +31,39 @@ window.addEventListener('DOMContentLoaded', (event) => {
             headernav.slideUp();
             mobmenutoggleclose.removeClass('active').addClass('inactive');
         });
+
+        /**
+        =========================
+        *NAME: Start Flickity
+        *@todo flickity
+        *=========================
+        */
+        jQuery('.testimoniBoxWr').flickity({
+            // options
+            cellAlign: 'center',
+            contain: true,
+            wrapAround: true,
+            autoPlay: 3000,
+            prevNextButtons: false,
+            pageDots: false,
+            pauseAutoPlayOnHover: false,
+            // draggable: true,
+            // freeScroll: false,
+            // groupCells: true,
+            // groupCells: 1,
+            // adaptiveHeight: true,
+            // imagesLoaded: true,
+            // percentPosition: true,
+            // resize: true,
+            // setGallerySize: true,
+            // watchCSS: true,
+        });
+
+
+
+
+
+
     });
 
 

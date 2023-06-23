@@ -1,93 +1,129 @@
 section#testimoniSection {
-    position: relative;
-    padding: 5rem 16px;
-    background: url("images/testimoniBg.jpg");
-    z-index: 1;
-    background-size: cover;
+  position: relative;
+  background: url("images/testimoniBg.jpg");
+  z-index: 1;
+  background-size: cover;
+  padding-top: var(--paddingtop7);
+  padding-bottom: var(--paddingbottom7);
 }
 
 section#testimoniSection::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, .8);
-    top: 0;
-    left: 0;
-    z-index: 0;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
 div#testimoniCtn {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 div.titleTestimoni {
-    line-height: 1.3;
-    text-align: center;
-    color: white;
+  line-height: 1.3;
+  text-align: center;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+div.titleTestimoni p {
+  text-align: center;
 }
 
 div.titleTestimoni h3 {
-    color: var(--color2);
+  color: var(--color2);
 }
 
 div.testimoniBoxWr {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-    padding-top: 2em;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px; */
+  display: block;
+  width: 100%;
 }
 
 div.testimoniBoxChild {
-    padding: 16px;
-    background: var(--colordark1);
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    -ms-border-radius: 16px;
-    -o-border-radius: 16px;
-    border: 2px solid #fff;
+  padding: 16px;
+  background: var(--colordark1);
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: calc(100% / 3 - 16px);
+  margin: 0 8px;
 }
 
 div.textTestimoni {
-    padding-bottom: 16px;
-    color: var(--color3);
+  color: var(--color3);
+}
+div.textTestimoni p {
+  font-size: 14px;
+  line-height: 1.3;
+  margin: 8px 0;
+  background-color: var(--colordark2);
+  padding: 1rem;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  position: relative;
+}
+div.textTestimoni p:before {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  left: 1rem;
+  border-top: 10px solid var(--colordark2);
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
 }
 
 div.userTestimoni {
-    display: flex;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 16px;
+  margin-top: 1rem;
+  align-items: center;
 }
 
 div.imageUserTestimoni {
-    width: 70px;
-    height: 70px;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
-    overflow: hidden;
-    margin-right: 16px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  overflow: hidden;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 div.imageUserTestimoni img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 div.nameUser {
-    line-height: 1.3;
-    color: var(--color3);
+  line-height: 1.3;
+  color: var(--color3);
 }
 
 div.nameUser h4 {
-    color: var(--color2);
+  color: var(--color2);
 }
-
-
-
-
-
