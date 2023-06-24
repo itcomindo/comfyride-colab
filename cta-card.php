@@ -1,7 +1,7 @@
 <section id="ctaSection" class="section">
     <div id="ctaCtnWr" class="container">
         <div class="ctaTitle">
-            <h2 class="sectionHead uppercase">comfyride application</h2>
+            <h2 class="sectionhead uppercase">comfyride application</h2>
         </div>
         <div class="ctaCard">
             <div class="leftCta">

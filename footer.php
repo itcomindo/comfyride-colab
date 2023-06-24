@@ -81,7 +81,7 @@
 </section>
 <div id="cp" class="section">
     <div class="container">
-        Web Design by BudiHaryono.com
+        Web Designed by BHY & Son
     </div>
 </div>
 

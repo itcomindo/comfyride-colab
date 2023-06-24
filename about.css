@@ -120,3 +120,16 @@ div#aboutbtn:before {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+
+/**
+=========================
+*NAME: ABOUT
+*@todo about media query
+*=========================
+*/
+/*=========================@todo 540px=========================*/
+@media screen and (max-width: 540px) {
+  div#aboutwr {
+    grid-template-columns: 1fr;
+  }
+}

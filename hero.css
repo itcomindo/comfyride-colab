@@ -3,11 +3,7 @@ section#heropr {
   margin-top: -80px;
   position: relative;
   background-image: url(images/herobg.webp);
-<<<<<<< HEAD
   background-size: auto;
-=======
-  background-size: cover;
->>>>>>> 7f51424705b573f4351be36f630465b179418589
   background-repeat: no-repeat;
   z-index: 1;
   background-position: 0rem -17rem;
@@ -78,6 +74,8 @@ div#herocar {
 *@todo hero media query
 *=========================
 */
+
+/*=========================1024=========================*/
 @media screen and (max-width: 1024px) {
   section#heropr {
     height: calc(75vh - 80px);
@@ -87,5 +85,17 @@ div#herocar {
     width: 75%;
     height: auto;
     aspect-ratio: 16/9;
+  }
+}
+/*=========================600=========================*/
+@media screen and (max-width: 600px) {
+  section#heropr {
+    height: calc(60vh - 80px);
+    background-position: center center;
+    background-size: cover;
+  }
+  div#herocar {
+    width: 90%;
+    bottom: -6rem;
   }
 }
