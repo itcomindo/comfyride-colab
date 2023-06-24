@@ -82,3 +82,12 @@ div.buttonWr {
   display: flex;
   justify-content: center;
 }
+
+/* MEDIA QUERY*/
+
+@media screen and (max-width : 600px) {
+    div.featureBoxWr {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 2rem;
+    }
+}

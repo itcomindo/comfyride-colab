@@ -43,9 +43,6 @@ div.titleTestimoni h3 {
 }
 
 div.testimoniBoxWr {
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px; */
   display: block;
   width: 100%;
 }
@@ -126,4 +123,19 @@ div.nameUser {
 
 div.nameUser h4 {
   color: var(--color2);
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width : 600px) {
+  div.testimoniBoxChild {
+    width: calc(100% / 2 - 16px);
+
+  }
+}
+
+@media screen and (max-width : 425px) {
+  div.testimoniBoxChild {
+    width: calc(100% / 1);
+  }
 }

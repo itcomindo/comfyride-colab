@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="hero.css">
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="price-card.css">
     <link rel="stylesheet" href="features.css">
+    <link rel="stylesheet" href="cta-card.css">
     <link rel="stylesheet" href="testimoni.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css" />
@@ -23,6 +25,8 @@
     <?php include 'header.php'; ?>
     <?php include 'hero.php'; ?>
     <?php include 'about.php'; ?>
+    <?php include "price-card.php"; ?>
     <?php include "features.php"; ?>
+    <?php include "cta-card.php"; ?>
     <?php include "testimoni.php"; ?>
     <?php include 'footer.php'; ?>
