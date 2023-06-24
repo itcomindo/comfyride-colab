@@ -1,0 +1,82 @@
+section#sectionPrice {
+    padding-top: var(--paddingtop7);
+    padding-bottom: var(--paddingbottom7);
+}
+
+div#priceCtn {
+    display: flex;
+    flex-direction: column;
+    gap: 5.2rem;
+}
+
+.headPriceRoot {
+    color: var(--colordark3);
+}
+
+div.priceTitle {
+    text-align: center;
+}
+
+div.cardPr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+div.cardChild {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--colordark1);
+    gap: 1em;
+    align-items: center;
+    padding: 2rem 0;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+img.priceImage {
+    width: 200px;
+    max-width: 100%;
+    position: absolute;
+    top: -4em;
+}
+
+h3.priceHead {
+    margin-top: 26px;
+}
+
+p.priceDesc {
+    text-align: center;
+    color: var(--color3);
+}
+
+div.thisPrice {
+    color: var(--color3);
+}
+
+div.thisPrice span:last-child {
+    color: var(--color2);
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width : 700px) {
+    div.cardPr {
+        grid-template-columns: repeat(2, 1fr) !important;
+        row-gap: 5rem ;
+    }
+
+}
+
+@media screen and (max-width : 480px) {
+    div.cardPr {
+        grid-template-columns: repeat(1, 1fr) !important;
+        row-gap: 6rem ;
+    }
+}
+

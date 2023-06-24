@@ -5,25 +5,22 @@ section#topFooter {
   text-align: center;
   padding-top: var(--paddingtop5);
   padding-bottom: var(--paddingbottom5);
+  color: var(--colordark1);
+  max-width: 100%;
 }
 
-section#topFooter .sectionhead {
-  color: var(--colordark1);
-  border: 1px solid rgba(0, 0, 0, 0.3);
+h2.headTopFooter {
   width: max-content;
-  margin: 0 auto;
-  padding: 6px 16px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  max-width: 100%;
+  border: 2px solid #333;
+  padding: 4px;
 }
 
 div#topfooterwr {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  align-items: center;
 }
 
 /* FOOTER BOTTOM */
@@ -108,4 +105,18 @@ div.contactFooter ul li i {
   padding-top: 4px;
   padding-bottom: 4px;
   font-size: 80%;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width : 600px) {
+    div#footerCtn {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width : 425px) {
+    div#footerCtn {
+      grid-template-columns: repeat(1, 1fr);
+    }
 }

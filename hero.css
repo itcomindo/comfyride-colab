@@ -3,7 +3,11 @@ section#heropr {
   margin-top: -80px;
   position: relative;
   background-image: url(images/herobg.webp);
+<<<<<<< HEAD
   background-size: auto;
+=======
+  background-size: cover;
+>>>>>>> 7f51424705b573f4351be36f630465b179418589
   background-repeat: no-repeat;
   z-index: 1;
   background-position: 0rem -17rem;
