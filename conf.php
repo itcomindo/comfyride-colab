@@ -83,7 +83,7 @@ function link_cta($tipe = 'whatsapp')
         // replace - with empty string
         $phone = str_replace('-', '', $phone);
         // whatsapp link
-        $whatsapp = "https://wa.me/$phone";
+        $whatsapp = "//api.whatsapp.com/send?phone=$phone";
         return $whatsapp;
     } elseif ($tipe == 'phone') {
         $datacust = datacust();

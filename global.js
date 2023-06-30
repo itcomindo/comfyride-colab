@@ -116,17 +116,57 @@ window.addEventListener("DOMContentLoaded", (event) => {
       prevNextButtons: false,
       pageDots: false,
       pauseAutoPlayOnHover: false,
-      // draggable: true,
-      // freeScroll: false,
-      // groupCells: true,
-      // groupCells: 1,
-      // adaptiveHeight: true,
-      // imagesLoaded: true,
-      // percentPosition: true,
-      // resize: true,
-      // setGallerySize: true,
-      // watchCSS: true,
     });
+
+
+
+    // get whatsapp form
+    const comfynama = jQuery("#comfynama"); // input field
+    const comfynohp = jQuery("#comfyphone"); // input field
+    const comfymessage = jQuery("#comfymessage"); // textarea field
+    const aboutbtn = jQuery("#aboutbtn"); // div act as button
+
+    // when user type in comfynama, comfynohp, comfymessage get its value
+    var comfynamaVal = "";
+    jQuery(comfynama).keyup(function () {
+      var comfynamaVal = jQuery(this).val();
+      console.log(comfynamaVal);
+    });
+
+    comfynohpVal = "";
+    jQuery(comfynohp).keyup(function () {
+      var comfynohpVal = jQuery(this).val();
+      console.log(comfynohpVal);
+    });
+
+    comfymessageVal = "";
+    jQuery(comfymessage).keyup(function () {
+      var comfymessageVal = jQuery(this).val();
+      console.log(comfymessageVal);
+    });
+
+    // when aboutbtn is clicked, get all value from comfynama, comfynohp, comfymessage
+    jQuery(aboutbtn).click(function () {
+      const comfynamaVal = jQuery(comfynama).val().replace(/ /g, '%20');
+      const comfynohpVal = jQuery(comfynohp).val().replace(/ /g, '%20');
+      const comfymessageVal = jQuery(comfymessage).val().replace(/ /g, '%20');
+      const whatsappMessage = 'Hi,%20Saya%20' + comfynamaVal + '%20dinomor%20' + comfynohpVal + '%20ingin%20bertanya%20tentang%20' + comfymessageVal;
+      const noWhatsApp = jQuery('#aboutform').data('wa');
+      const waSendUrl = noWhatsApp + '&text=' + whatsappMessage;
+      // open whatsapp
+      window.open(waSendUrl, '_blank');
+    });
+
+    jQuery('.herophone').click(function () {
+      const heroPhone = jQuery('.herophone').data('phone');
+      window.open(heroPhone, '_blank');
+    });
+
+
+
+
+
+
 
 
 

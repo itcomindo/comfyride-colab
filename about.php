@@ -7,21 +7,21 @@
             </div>
             <div id="aboutright">
                 <div id="aboutformbox">
-                    <div id="aboutform">
+                    <div id="aboutform" data-wa="<?php echo link_cta('whatsapp'); ?>">
                         <!-- name -->
                         <div class="aboutformitem">
-                            <label for="nama">Name</label>
-                            <input type="text" id="nama">
+                            <label for="comfynama">Name</label>
+                            <input type="text" id="comfynama">
                         </div>
                         <!-- phone -->
                         <div class="aboutformitem">
-                            <label for="phone">Phone</label>
-                            <input type="text" id="phone">
+                            <label for="comfyphone">Phone</label>
+                            <input type="number" id="comfyphone">
                         </div>
                         <!-- message -->
                         <div class="aboutformitem">
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                            <label for="comfymessage">Message</label>
+                            <textarea name="message" id="comfymessage" cols="30" rows="5"></textarea>
                         </div>
                         <div class="aboutformitem">
                             <div id="aboutbtn" class="ctabtn">
