@@ -2,7 +2,7 @@
     <div class="container">
         <div id="aboutwr" class="w100">
             <div id="aboutleft">
-                <h2 class="sectionhead uppercase">Best in City</h2>
+                <h2 class="sectionhead uppercase withdarkline">Best in City</h2>
                 <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab iure similique tempora odit dignissimos, perferendis asperiores repudiandae illum sapiente itaque? Voluptates repellendus inventore quidem accusantium earum temporibus velit consequatur ea!</span>
             </div>
             <div id="aboutright">

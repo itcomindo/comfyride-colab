@@ -35,6 +35,9 @@ body {
   color: #333;
   background-color: var(--bg-primary);
 }
+body.no-scroll {
+  overflow: hidden;
+}
 a {
   text-decoration: none;
 }
@@ -158,4 +161,89 @@ h6 {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+.withdarkline {
+  border-bottom: 2px solid var(--colordark1);
+  width: max-content;
+}
+
+.withdarkline.square {
+  position: relative;
+  border-bottom: 2px solid var(--colordark1);
+  width: max-content;
+  padding-bottom: 8px;
+  margin-bottom: 1rem;
+}
+.withdarkline.square:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 50%;
+  background-color: var(--colordark1);
+  bottom: -5.5px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.withlightline1 {
+  border-bottom: 2px solid var(--color1);
+  width: max-content;
+}
+
+.withlightline1.square {
+  position: relative;
+  border-bottom: 2px solid var(--color1);
+  width: max-content;
+  padding-bottom: 8px;
+  margin-bottom: 1rem;
+}
+.withlightline1.square:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 50%;
+  background-color: var(--color1);
+  bottom: -5.5px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.withlightline2 {
+  position: relative;
+  border-bottom: 2px solid var(--color2);
+  width: max-content;
+}
+.withlightline2.square {
+  position: relative;
+  border-bottom: 2px solid var(--color2);
+  width: max-content;
+  padding-bottom: 8px;
+  margin-bottom: 1rem;
+}
+.withlightline2.square:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 50%;
+  background-color: var(--color2);
+  bottom: -5.5px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.mhauto {
+  margin-left: auto;
+  margin-right: auto;
 }

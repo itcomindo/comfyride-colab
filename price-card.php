@@ -1,7 +1,7 @@
 <section id="sectionPrice" class="section">
     <div id="priceCtn" class="container">
         <div class="priceTitle">
-            <h2 class="sectionhead  uppercase headPriceRoot">comfyride pricelist</h2>
+            <h2 class="sectionhead  uppercase headPriceRoot withlightline2 square mhauto">comfyride pricelist</h2>
         </div>
         <div class="cardPr">
             <div class="cardChild">

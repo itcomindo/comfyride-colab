@@ -1,11 +1,11 @@
-<header id="headerpr" class="section">
+<header id="headerpr" class="section animate__animated">
     <div class="container">
         <div id="headerwr" class="hw100">
             <!-- header left -->
             <div id="headerleft" class="headercol hw100">
                 <a href="/">
                     <h2><span class="comfy">Comfy</span>ride</h2>
-                    <span class="logotagline">Best Ride For Special One</span>
+                    <span class="logotagline">Best Ride For Best People</span>
                 </a>
             </div>
             <!-- header right -->

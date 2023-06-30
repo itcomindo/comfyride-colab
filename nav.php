@@ -1,9 +1,9 @@
 <div id="navwr" class="hw100">
     <nav id="headernav" class="hw100">
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="#">Cars</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a class="current" href="/">Home</a></li>
+            <li><a id="gotocars" href="#">Cars</a></li>
+            <li><a id="gotocontact" href="#">Contact</a></li>
         </ul>
     </nav>
     <div id="mobmenutoggleopen">

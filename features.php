@@ -1,7 +1,7 @@
 <section id="featureSec" class="section">
     <div id="featureCtn" class="container">
         <div class="featureTitle">
-            <h2 class="sectionhead uppercase color1">we do the best</h2>
+            <h2 class="sectionhead uppercase withlightline1 square color1">we do the best</h2>
             <p class="w80">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae commodi, eius nesciunt harum sit ea quisquam aliquam incidunt nihil veniam magni praesentium tenetur numquam. Eaque possimus libero temporibus quod quasi.</p>
         </div>
         <div class="featureBoxWr">

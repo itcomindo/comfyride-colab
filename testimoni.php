@@ -1,7 +1,7 @@
 <section id="testimoniSection" class="section">
     <div id="testimoniCtn" class="container">
         <div class="titleTestimoni">
-            <h2 class="sectionhead color2 uppercase">Happy Client's</h2>
+            <h2 class="sectionhead color2 uppercase withlightline2 square">Happy Client's</h2>
             <p class="w80">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus ex eum, ab iusto iure aliquam quis vitae deleniti impedit veniam vero totam exercitationem dolore reprehenderit beatae voluptas amet accusantium! Deserunt.</p>
         </div>
         <div class="testimoniBoxWr">

@@ -10,9 +10,68 @@ window.addEventListener("DOMContentLoaded", (event) => {
   });
 
   jQuery(function () {
+
+    /**
+    =========================
+    *NAME: Start Sticky Header
+    *=========================
+    */
+    const headerpr = jQuery("#headerpr");
+    //  when scroll down 100px from top, add class 'sticky' to header else remove class 'sticky'
+    jQuery(window).scroll(function () {
+      if (jQuery(this).scrollTop() > 100) {
+        headerpr.addClass("sticky animate__fadeInDown");
+      } else {
+        headerpr.removeClass("sticky animate__fadeInDown");
+      }
+    });
+
+    /**
+    =========================
+    *NAME: Header Menu go to
+    *=========================
+    */
+    const headernav = jQuery("#headernav");
+    const headernavli = jQuery("#headernav ul li a");
+    const gotocars = jQuery("#gotocars");
+    const sectionPrice = jQuery("#sectionPrice");
+    //  when click cars, preventDefault then scroll to sectionPrice
+    jQuery(gotocars).click(function (e) {
+      e.preventDefault();
+      jQuery(headernavli).removeClass("current");
+      jQuery(this).addClass("current");
+      jQuery("html, body").animate(
+        {
+          scrollTop: sectionPrice.offset().top - 100,
+        },
+        1000
+      );
+    });
+    const gotocontact = jQuery("#gotocontact");
+    const topFooter = jQuery("#topFooter");
+    //  when click contact, preventDefault then scroll to topFooter
+    jQuery(gotocontact).click(function (e) {
+      jQuery(headernavli).removeClass("current");
+      jQuery(this).addClass("current");
+      e.preventDefault();
+      jQuery("html, body").animate(
+        {
+          scrollTop: topFooter.offset().top - 100,
+        },
+        1000
+      );
+    });
+
+
+
+    /**
+    =========================
+    *NAME: Start Mobile Menu
+    *=========================
+    */
     const mobmenutoggleopen = jQuery("#mobmenutoggleopen");
     const mobmenutoggleclose = jQuery("#mobmenutoggleclose");
-    const headernav = jQuery("#headernav");
+
     if (jQuery(window).width() < 600) {
       headernav.slideUp().hide();
     } else {
@@ -22,12 +81,25 @@ window.addEventListener("DOMContentLoaded", (event) => {
     jQuery(mobmenutoggleopen).click(function () {
       headernav.slideDown().show();
       mobmenutoggleclose.removeClass("inactive").addClass("active");
+      jQuery('body').addClass('no-scroll');
     });
     // close mobile menu
     jQuery(mobmenutoggleclose).click(function () {
       headernav.slideUp();
       mobmenutoggleclose.removeClass("active").addClass("inactive");
+      jQuery('body').removeClass('no-scroll');
     });
+
+
+    if (jQuery(window).width() < 600) {
+      jQuery(headernav).click(function () {
+        headernav.slideUp();
+        mobmenutoggleclose.removeClass("active").addClass("inactive");
+        jQuery('body').removeClass('no-scroll');
+      });
+    } else {
+      // do nothing
+    }
 
     /**
         =========================
@@ -55,5 +127,22 @@ window.addEventListener("DOMContentLoaded", (event) => {
       // setGallerySize: true,
       // watchCSS: true,
     });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   });
 });
